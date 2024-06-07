@@ -1,7 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
-    name='libraries',
-    version='1.0',
-    scripts=['all_libraries.py'],
+    name='my_python_libraries',
+    version='1.0.2',
+    packages=find_packages(where='src'),
+    package_dir={'': 'src'},
+    
 )
