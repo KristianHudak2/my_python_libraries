@@ -2,7 +2,7 @@ from .install_package import install
 
 #----------------------------------
 
-install('pillow')
+#install('pillow')
 
 #----------------
 
